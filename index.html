@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>API Dog App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Random dog generator!</h1>
+      <p>How many dogs would you like to see? (please enter a number 1-50)</p>
+      <form>
+        <input
+          required
+          type="number"
+          min="1"
+          max="50"
+          class="qty"
+          placeholder="3"
+        />
+        <button class="submit" type="submit">fetch</button>
+      </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
