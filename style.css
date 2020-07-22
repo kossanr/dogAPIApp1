@@ -2,10 +2,16 @@
   box-sizing: border-box;
 }
 
-.container {
+.container,
+h2 {
   text-align: center;
 }
 
 h1 {
   font-size: 40px;
+}
+
+.dog-image {
+  width: 20%;
+  margin: 10px 2.5%;
 }
