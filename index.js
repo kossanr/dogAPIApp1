@@ -22,6 +22,7 @@ function watchForInput() {
 }
 
 function displayDogImage(photos) {
+  console.log(photos);
   $(".results .images").html("");
   //display the results section
   $(".results").removeClass("hidden");
